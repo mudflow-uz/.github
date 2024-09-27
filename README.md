@@ -57,3 +57,23 @@ To run the project locally, follow these steps:
    ```bash
    git clone https://github.com/username/Mudflow.uz.git
    cd Mudflow.uz
+    
+    //Install Node.js dependencies:
+    cd backend
+    npm install
+
+    //Set up Python Flask for the machine learning model:
+    cd ml
+    pip install -r requirements.txt
+
+   //Start Node.js server:
+    npm start
+
+   //Start Flask server for the ML model:
+   flask run
+
+   //Set up your PostgreSQL database and update the configuration file with your credentials.
+   ```
+   
+
+
